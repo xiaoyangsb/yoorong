@@ -191,7 +191,7 @@
     height: 144px;
     z-index: 200;
     position: relative;
-    margin: 16px 0 0 80px;
+    margin: 0 0 0 80px;
     display: none;
 }
 .product_t .suggestion li{
@@ -199,6 +199,9 @@
     line-height: 32px;
     text-indent: 2em;
     cursor: pointer;
+}
+.product_t .suggestion li:hover{
+    background: #FAFAFA;
 }
 .product_t .category_container
 {
